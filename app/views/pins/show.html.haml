@@ -1,5 +1,8 @@
 %h1=@pin.title
 %h4=@pin.description
+%p
+  Submited by
+  %h8=@pin.user.email
 
 =link_to "Back", root_path
 =link_to "Edit", edit_pin_path
